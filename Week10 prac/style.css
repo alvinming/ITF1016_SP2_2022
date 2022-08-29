@@ -1,0 +1,25 @@
+
+<style type='text/css'> /* These styles will remove all padding and 
+margins on h1, h2 and p elements, and make the headings red. */
+   h1, h2, p {
+      padding: 0;
+      margin: 0;
+      font: 1em/1.33 Verdana, sans-serif;
+   }
+  
+   h1 {font-size: 1.33em;}
+  h2 {font-size: 1.17em;}
+   h1, h2 {
+      color: red;
+   }
+   p {margin: 0 0 0.5em 0;}
+   p {text-indent: 5em;}
+   h1, h2 {margin: 0.83em 0 0.17em 0;}
+   p:first-of-type {
+  font: 2.17em/1.33 Verdana, sans-serif;
+}
+p.first {text-indent: 0em;}
+body {  
+  background: rgba(3, 65, 141, 0.167) url(image.gif) repeat fixed top left;  
+}
+</style>
